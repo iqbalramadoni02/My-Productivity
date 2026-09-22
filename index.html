@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>My Productivity Hub</title>
+  <meta name="description" content="Dashboard pribadi: sekolah, project, bimbel, keuangan, jurnal, dan arsip file — tersambung ke Google Sheets, Calendar, Gmail, dan Drive." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%232f45c5'/><path d='M28 30h18v18H28zM54 30h18v18H54zM28 56h18v18H28zM54 56h18v18H54z' fill='white'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <div class="boot" id="boot">
+      <div class="boot-mark"></div>
+      <p>Menyiapkan My Productivity Hub…</p>
+    </div>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toasts" aria-live="polite"></div>
+  <noscript>Aplikasi ini membutuhkan JavaScript.</noscript>
+  <script src="app.js"></script>
+</body>
+</html>
